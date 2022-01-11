@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Hind+Siliguri:wght@500&family=Noto+Sans&family=Poppins:ital@1&family=Roboto+Slab&display=swap');
+
+body{
+  font-family: 'Comfortaa', cursive;
+  background-color: #ECFAF5;
+  font-size: 1.5rem;
+}
+
+header h1{
+  font-size: 3rem;
+  color: #C40CFB;
+  line-height: 2;
+}
+
+header form{
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+}
+/* Elements inside Form Tag */
+form > *{
+  margin-bottom: 5px;
+  outline: none;
+  font-size: 1.4rem;
+  padding: 7px;
+  border: 1px solid #777;
+  border-radius: 3px;
+}
+
+form textarea{
+  padding: 7px 0 40px 5px;
+}
+
+form button{
+  background-color: #C40CFB;
+  color:  #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+form button:hover{
+  background-color: #F6B92C;
+}
+
+.container{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+.notes{
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 5px;
+  border-style: dashed;
+  margin : 1rem 0;
+}
+
+.note-counter,.note-text{
+  font-size: 1.4rem;
+}
+
+.note-title{
+  font-size: 1.6rem;
+}
+
+.note-btn,.edit-btn{
+  padding: 7px;
+  margin-top: 5px;
+  background-color: #FE3A13;
+  color: #fff;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.edit-btn{
+  background-color: #C40CFB;
+}

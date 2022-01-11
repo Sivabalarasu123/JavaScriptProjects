@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins:ital@1&family=Roboto+Slab&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+h2{
+  padding: 20px;
+  margin:0;
+  text-align: center;
+}
+li{
+  padding: 10px 20px;
+  font-size: 1.4rem;
+  list-style-type: circle;
+}
+ul li label{
+  cursor: pointer;
+}
+body{
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0;
+  background-color: #d9e4f5;
+  background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
+  line-height: 5vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  min-height: 100vh;
+}
+button {
+  display: block;
+  background-color: purple;
+  color: white;
+  padding: 2rem;
+  border: none;
+  font-size: 1.4rem;
+  font-family: inherit;
+  width: 100%;
+  cursor: pointer;
+  font-weight: bold;
+}
+button:hover{
+  background-color: #AC2EF9;
+}
+.quiz-container{
+  background-color: white;
+  border-radius: 10px;
+  width: 500px;
+  box-shadow: 0 0 10px 2px rgba(100,100,100,0.5);
+  max-width: 100%;
+  overflow: hidden;
+  margin: 20px;
+  border: 10px;
+}
+.quiz-header{
+  padding: 0;
+}

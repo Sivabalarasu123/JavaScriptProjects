@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Hind+Siliguri:wght@500&family=Noto+Sans&family=Poppins:ital@1&family=Roboto+Slab&family=Roboto:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto Slab", serif;
+  background-color: #ecfaf5;
+  margin: 0;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  display: flex;
+}
+h1 {
+  color: #c40cfb;
+  text-align: center;
+  font-size: 10rem;
+  opacity: 0.5;
+}
+form {
+  max-width: 100%;
+  width: 400px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+small {
+  color: #9b9c9c;
+  margin-top: 1.2rem;
+  text-align: center;
+  display: block;
+}
+
+.input {
+  display: block;
+  padding: 1rem 2rem;
+  width: 100%;
+  font-size: 2rem;
+  border-style: solid;
+}
+.input::placeholder {
+  color: grey;
+  font-size: 1.5rem;
+}
+.todos {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.todos li {
+  font-size: 1.5rem;
+  border-top: 1px solid #b5b5b5;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+.todos li.completed {
+  color: grey;
+}
